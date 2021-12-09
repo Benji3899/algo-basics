@@ -7,7 +7,7 @@ export function helloWorld() {
  * Write a function that returns the sum of the two numbers passed as arguments.
  */
 export function sum(a, b) {
-    
+    return a + b
 }
 
 /**
@@ -27,21 +27,21 @@ export function celciusToFahrenheit(celciusTemperature) {
  * string.length() to get the length of a string.
  */
 export function isGreaterThan8(word) {
-    
+    return word.length > 8
 }
 
 /**
  * Write a XOR function, which is the exclusive version of the OR
  */
 export function xor(a, b) {
-    
+    return a != b 
 }
 
 /**
  * Similarily, write a XNOR function, also called equivalence, which returns true only if both boolean arguments are true or false
  */
 export function xnor(a, b) {
-    
+    return a == b
 }
 
 /**
@@ -51,5 +51,5 @@ export function xnor(a, b) {
  * "quotient = 7, remainder = 3"
  */
 export function divide(a, b) {
-    
+    return Math.floor a / b
 }
