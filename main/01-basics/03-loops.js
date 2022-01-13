@@ -8,8 +8,7 @@ export function find(array, element) {
         }
     }
 }
-
-console.log(find(["carotte", 1, false, "truc"], 1))
+//console.log(find(["carotte", 1, false, "truc"], false))
 
 /**
  * Write a function that return the input word with reversed letters
@@ -25,6 +24,7 @@ export function reverseString(word) {
     }
     return response.join("")
 }
+//console.log(reverseString(["r","o", "o", "t"].join("")))
 
 /**
  * Write a function to check which number is nearest to 100 among the array of numbers.
@@ -38,6 +38,7 @@ export function reverseString(word) {
     }
     return closest
 }
+//console.log(closestTo100AmongArray([1, 50, 75, 89, 60]))
 
 /**
  * A pandemic is propagating ! Every day, the number of infected persons doubles.
