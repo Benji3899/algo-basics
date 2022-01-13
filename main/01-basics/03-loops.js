@@ -9,6 +9,8 @@ export function find(array, element) {
     }
 }
 
+console.log(find(["carotte", 1, false, "truc"], 1))
+
 /**
  * Write a function that return the input word with reversed letters
  * 
