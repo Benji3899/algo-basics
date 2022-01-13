@@ -54,6 +54,16 @@ export function pandemicForecast(initialInfectedCount, dayCount) {
     }
     return infectedCount
 }
+console.log(pandemicForecast(1, 5))
+/*tant que currentDay < dayCount faire infectedCount = infectedCount *2
+++curentDay => return infectedCount*/
+
+/* 
+0 < 3 => 5 = 5*2 = 10
+++currentDay = 0 + 1
+return infectedCount = 10
+*/
+
 
 /**
  * FizzBuzz ....
